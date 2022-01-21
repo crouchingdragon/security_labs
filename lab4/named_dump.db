@@ -1,0 +1,4501 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+; using a 604800 second stale ttl
+$DATE 20210404152027
+; authanswer
+.			1119065	IN NS	a.root-servers.net.
+			1119065	IN NS	b.root-servers.net.
+			1119065	IN NS	c.root-servers.net.
+			1119065	IN NS	d.root-servers.net.
+			1119065	IN NS	e.root-servers.net.
+			1119065	IN NS	f.root-servers.net.
+			1119065	IN NS	g.root-servers.net.
+			1119065	IN NS	h.root-servers.net.
+			1119065	IN NS	i.root-servers.net.
+			1119065	IN NS	j.root-servers.net.
+			1119065	IN NS	k.root-servers.net.
+			1119065	IN NS	l.root-servers.net.
+			1119065	IN NS	m.root-servers.net.
+; authanswer
+			1119065	RRSIG	NS 8 0 518400 (
+					20210424050000 20210411040000 14631 .
+					ctE9I7HuR8mLraArds2OowJkivAJnKzwM4tq
+					FQSX1pbQxvQ80qCOQJWEG46wPqKIvC8RNHxY
+					ZHAM7h4NuhGYBZijdUgmsv1KNnZWjp13GWi1
+					2UmjLmJtsfcYWxyDyUG6pb4Mp13duKn9ovyM
+					OFsfaRtFASuwT7x9L2RHLgR1otBla3/fV7lI
+					n9f25iEbr0fT1mFfrk5NdOvC9Zkqj9HmFM3S
+					7id9S0fRY1IXJvwDqZm5kzCr7lR0rm+17BS7
+					fi3RFE9SXVSXaP+C2UiGziBbfTvgLm2LcTGz
+					O14i4FjE93WGZHvA/6AI/4MGK6ugKo9v5dZT
+					pR6QpW2iUsbXJdHbYw== )
+; glue
+ca.			773485	NS	c.ca-servers.ca.
+			773485	NS	j.ca-servers.ca.
+			773485	NS	x.ca-servers.ca.
+			773485	NS	any.ca-servers.ca.
+; additional
+			687085	DS	2134 8 2 (
+					4B8475C0C0FE2AFDFEE1A71A237C91059098
+					D12FC18265B290EDB238A5F63582 )
+; additional
+			687085	RRSIG	DS 8 1 86400 (
+					20210424050000 20210411040000 14631 .
+					FGiOaizKSk4HWS5M9ZkArBV4lR9jwmMPBtSx
+					8+36xjHAOfsaDbm7DHuuHTwhwwuRxIfuGg+i
+					9N1e2vwfTbojsPKU4lGgp3pepITSk4TEEzVO
+					HimbdTZ9IxVsr6zC3OokEdrCo6R+v76xfNIL
+					WJg6b23fAjn3rXVmAMP0jVje88F9zFYdJdm/
+					+76uhbLLr6KJU+cGB1lVNAgfRorZzgE8j7Fn
+					CmfHf6QQiIy421AEana7zIgRKrZROBAU/cDx
+					8/UsG4JIdAhFzOuPc39Dcc4YD/8FlmgPL9HM
+					dTVVh3kjfmAz5uMti2kv+Qte6X2rXQyUu9TJ
+					PN62nNNEeeIhhN86gA== )
+; authanswer
+any.ca-servers.ca.	687085	A	199.4.144.2
+; glue
+			773485	AAAA	2001:500:a7::2
+; glue
+c.ca-servers.ca.	773485	A	185.159.196.2
+; glue
+			773485	AAAA	2620:10a:8053::2
+; glue
+j.ca-servers.ca.	773485	A	198.182.167.1
+; glue
+			773485	AAAA	2001:500:83::1
+; authanswer
+x.ca-servers.ca.	687085	A	199.253.250.68
+; glue
+			773485	AAAA	2620:10a:80ba::68
+; glue
+ns1.d-zone.ca.		687085	A	162.219.54.2
+; glue
+			687085	AAAA	2620:10a:80eb::2
+; glue
+ns2.d-zone.ca.		687085	A	162.219.55.2
+; glue
+			687085	AAAA	2620:10a:80ec::2
+; glue
+utoronto.ca.		687085	NS	ns1.d-zone.ca.
+			687085	NS	ns2.d-zone.ca.
+; authanswer
+; stale
+			602482	A	128.100.166.120
+; authanswer
+; stale
+			602616	MX	0 utoronto-ca.mail.protection.outlook.com.
+; glue
+com.			773493	NS	a.gtld-servers.net.
+			773493	NS	b.gtld-servers.net.
+			773493	NS	c.gtld-servers.net.
+			773493	NS	d.gtld-servers.net.
+			773493	NS	e.gtld-servers.net.
+			773493	NS	f.gtld-servers.net.
+			773493	NS	g.gtld-servers.net.
+			773493	NS	h.gtld-servers.net.
+			773493	NS	i.gtld-servers.net.
+			773493	NS	j.gtld-servers.net.
+			773493	NS	k.gtld-servers.net.
+			773493	NS	l.gtld-servers.net.
+			773493	NS	m.gtld-servers.net.
+; additional
+			687093	DS	30909 8 2 (
+					E2D3C916F6DEEAC73294E8268FB5885044A8
+					33FC5459588F4A9184CFC41A5766 )
+; additional
+			687093	RRSIG	DS 8 1 86400 (
+					20210424050000 20210411040000 14631 .
+					JoFux4NDfGpYNZBBGwyUSVupdxFip+J6eZ57
+					w9oyoCiJWzyttO2/+w0OmNOm/3rRP8hJpLhw
+					S2DJmbuNX4vaq93UmGR0BeHMrKS5fZ7RSRL4
+					yfHT+RdGadlOx61dsW4qL2RbZzd0frIPv7Nt
+					6YWPr0apoU86Z2YRI7Y2H3ox94yiXxZO89Th
+					/2ZTaMHTwBLY00J5e9pfXI0ZrONsMDIN9Y1l
+					cF2rZrrokP7VnNCNd3CLJa9/KkzqAp3P9bFb
+					2dL3/7OKvNsC7/YhHsbM2EsvBejolFYsII+x
+					dslaF51Q2ILRdCozPI77T7ZHqsPx9u7uRXY3
+					B/Z2afjz8F4K/mFytQ== )
+; authauthority
+example.com.		687094	NS	ns.dnslabattacker.net.
+; authauthority
+			687094	RRSIG	NS 8 2 86400 (
+					20210501150704 20210410052537 45150 example.com.
+					Ym99a5fMEX3yW8I9DTb7WEIOblUQTp417CsV
+					5jX9JFvoNyBucaRGxNSlNRE6MezsfAHA3giA
+					6nhlPwdG9CFDXltYcsWmz551TA5iz1Sa+DSX
+					DELjdUWFm4+dguayOEKIWY9KSLvcfu8TRcVY
+					URhFVVG9DICLHZRhfsPrSDIAepw= )
+; authanswer
+			687094	A	93.184.216.34
+; authanswer
+			687094	RRSIG	A 8 2 86400 (
+					20210501085834 20210410052537 45150 example.com.
+					aNXHn6S6Y7XcWwG7cqUWHKzIsE1fFI820VUV
+					0Zs+LDl9fzh2mNP98mMkP5nKx/XDwFFYRniA
+					pWQKZ3dOZxISRlOpiEOz4Bs5W2nQU3l8s1Mi
+					t911BP12QFkd7SRiHHiGbZfhX4WUeorjuiy1
+					rfvsb6o0bVppSTASoJ+ihUMlFeQ= )
+; additional
+			687093	DS	31406 8 1 (
+					189968811E6EBA862DD6C209F75623D8D9ED
+					9142 )
+			687093	DS	31406 8 2 (
+					F78CF3344F72137235098ECBBD08947C2C90
+					01C7F6A085A17F518B5D8F6B916D )
+			687093	DS	31589 8 1 (
+					3490A6806D47F17A34C29E2CE80E8A999FFB
+					E4BE )
+			687093	DS	31589 8 2 (
+					CDE0D742D6998AA554A92D890F8184C698CF
+					AC8A26FA59875A990C03E576343C )
+			687093	DS	43547 8 1 (
+					B6225AB2CC613E0DCA7962BDC2342EA4F1B5
+					6083 )
+			687093	DS	43547 8 2 (
+					615A64233543F66F44D68933625B17497C89
+					A70E858ED76A2145997EDF96A918 )
+; additional
+			687093	RRSIG	DS 8 2 86400 (
+					20210417041714 20210410030714 58540 com.
+					lmVp3Si2sAtcOgngHI5knb1Q/JSOBX4vxU+g
+					qZgoQtC1hw6ePZbqUTQtIHRyNc1ljVkWQskX
+					WUHtRpY3QhQiz06QQsjqNT47PoPgwvpuESrl
+					7TB9MH0+k4A3wm9ulF92L2gYqrr1KTy9b785
+					yCGgVfHwOpNoJRUkvmffpb3fWrFJ8ihRX5nO
+					g3gi9B6g+ipjffFt1fZ8HawStrs5nWhsxA== )
+; answer
+; stale
+00mklv4so4.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+016um80o86.example.com.	604957	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+01kjhn1ms1.example.com.	604878	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+01pdffi94y.example.com.	604953	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+038sle7uer.example.com.	687727	NS	ns.dnslabattacker.net.
+; authanswer
+			687727	A	1.2.3.4
+; answer
+03q2ndnt37.example.com.	605200	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+06n9hvm554.example.com.	604917	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+082xb1m76c.example.com.	604982	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+08kfbbw256.example.com.	604946	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+0a9sjsn0s5.example.com.	604861	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+0dwn07o883.example.com.	605037	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+0embet0d22.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+0ht0gtx0tp.example.com.	605067	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+0k0zxvqomi.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+0l0ovysske.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+0lqcrraay2.example.com.	605083	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+0oav97nuhe.example.com.	605051	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+0oddebuqz3.example.com.	605080	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+0on1f790bu.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+0q1b0em1fd.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+0tabinxygs.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+0ycmabn1wf.example.com.	604962	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+0yvkfx0pq5.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+12skxwala4.example.com.	604742	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+13n929iku9.example.com.	605202	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+168fywiqyt.example.com.	687805	NS	ns.dnslabattacker.net.
+; authanswer
+			687805	A	1.2.3.4
+; answer
+; stale
+16wcwo5zfs.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+196g8d0ja5.example.com.	604916	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1cfhp63nt4.example.com.	605199	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1f9wuehe1n.example.com.	604905	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1fjwcuqz6f.example.com.	605043	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1g2tx96umx.example.com.	604883	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1gbrspo8xe.example.com.	604964	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1iiscu7idm.example.com.	604955	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+1ikblkr67h.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+1njx8be2zz.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1qlyptrrzz.example.com.	604892	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1unf72eu4r.example.com.	604928	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1ve79ytjx4.example.com.	604921	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1vgydvb15f.example.com.	604943	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+1vnhpa548e.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+1xslqbxcy7.example.com.	604951	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+1ygivkxvt6.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+20yrjzfv6n.example.com.	604869	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+253sbznesy.example.com.	605011	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+263l84giop.example.com.	605063	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+26psse5n5n.example.com.	605016	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+27ne5wnvxy.example.com.	604875	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+289nf4pc96.example.com.	605023	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+28pvvefhjq.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+2a1nki7q2g.example.com.	604977	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+2aruo79zau.example.com.	604860	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+2buy59s3ff.example.com.	687799	NS	ns.dnslabattacker.net.
+; authanswer
+			687799	A	1.2.3.4
+; answer
+; stale
+2et6f5iefx.example.com.	604728	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+2ig98m9js2.example.com.	687691	NS	ns.dnslabattacker.net.
+; authanswer
+			687691	A	1.2.3.4
+; answer
+2obxqpwt8a.example.com.	605024	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+2rt1dvhbxh.example.com.	605024	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+2tpx5uthfs.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+2ul4actbke.example.com.	604984	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+2wey68uz38.example.com.	605084	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+31e5bt579j.example.com.	604937	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+337kqlo5c5.example.com.	604706	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+33vg5ra6zg.example.com.	604868	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+352tvvy81h.example.com.	605075	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+3axh35wx0n.example.com.	605002	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+3b192rpwus.example.com.	604661	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+3eulw0ge4b.example.com.	604704	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+3kayo0yfke.example.com.	604700	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+3ku61rcio9.example.com.	604912	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+3lgm9y32h8.example.com.	604913	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+3mevudvx38.example.com.	604940	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+3oj3igkrb2.example.com.	604885	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+3olndr0xu1.example.com.	605035	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+3pjai1piml.example.com.	604733	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+3v5gwvvm5h.example.com.	604681	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+3xgd4aopap.example.com.	687760	NS	ns.dnslabattacker.net.
+; authanswer
+			687760	A	1.2.3.4
+; answer
+41ttumvt96.example.com.	604986	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+462v3bdesj.example.com.	604914	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+4710rlxt2y.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+471ockrdm0.example.com.	604987	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4bhk35pqbb.example.com.	604979	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4fb36rpomw.example.com.	604990	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4hjmjij41i.example.com.	605039	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4i1medjzlh.example.com.	604930	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4jbm0yaj1y.example.com.	605028	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+4lvk768qrx.example.com.	687675	NS	ns.dnslabattacker.net.
+; authanswer
+			687675	A	1.2.3.4
+; answer
+4mil25zedz.example.com.	604865	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4ns7f7vwkq.example.com.	604948	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4p68ks061p.example.com.	604954	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4qlepk0nr0.example.com.	605015	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+4s7msg3zm5.example.com.	605008	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+4ukh767tuq.example.com.	687847	NS	ns.dnslabattacker.net.
+; authanswer
+			687847	A	1.2.3.4
+; answer
+53deju9oyw.example.com.	605004	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+544o3gomyt.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+54celt1c76.example.com.	604936	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+55ouo5uhbs.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+5b26wkedc6.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+5b9k9qaz7d.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+5dpb4iyjtd.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+5gx8p70slq.example.com.	604869	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+5h02qqk939.example.com.	605041	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+5jp0wxy17v.example.com.	687818	NS	ns.dnslabattacker.net.
+; authanswer
+			687818	A	1.2.3.4
+; answer
+5kiq1ieltw.example.com.	605014	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+5kucdjjy6g.example.com.	604967	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+5l8cpx6k5f.example.com.	605038	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+5lrychngg3.example.com.	604951	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+5pjfyp7pmq.example.com.	605064	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+5snaegl4uu.example.com.	605005	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+5t98qk4pk8.example.com.	604653	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+5te4ndn63n.example.com.	687870	NS	ns.dnslabattacker.net.
+; authanswer
+			687870	A	1.2.3.4
+; answer
+; stale
+5v586a458k.example.com.	604750	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+5vpcdcckys.example.com.	604729	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+5xso725xkp.example.com.	604725	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+627aoh5s8n.example.com.	604911	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+62dedp5gao.example.com.	687702	NS	ns.dnslabattacker.net.
+; authanswer
+			687702	A	1.2.3.4
+; answer
+; stale
+63ncx1y3n3.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+63w9ytl2kp.example.com.	604961	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+651slx45sa.example.com.	604888	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+6547iqpumu.example.com.	604901	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+65gztzq54t.example.com.	604886	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+6bzvvbkhpk.example.com.	605056	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+6cq4ywd66d.example.com.	687765	NS	ns.dnslabattacker.net.
+; authanswer
+			687765	A	1.2.3.4
+; authauthority
+6dj6edy95y.example.com.	687693	NS	ns.dnslabattacker.net.
+; authanswer
+			687693	A	1.2.3.4
+; answer
+6dl11edrqa.example.com.	604920	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+6ilwcvy8tq.example.com.	604923	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+6j3pc8a4e0.example.com.	605049	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+6kb06jx0n2.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+6m1w034qix.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+6q7ctspq95.example.com.	605034	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+6u6q3ncqa7.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+6xcsjpo08l.example.com.	604995	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+701sx2ss12.example.com.	604990	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+730xle4dvl.example.com.	604948	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+74nyy4gulr.example.com.	604754	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+74ozk6tpyd.example.com.	604998	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+76h62ckpce.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+76hk9cqwfr.example.com.	605048	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+78mirsbnyw.example.com.	604884	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+78pgftazla.example.com.	604957	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+79zpfsta02.example.com.	604918	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+7at9ti3ma3.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7box8slard.example.com.	604968	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+7cv7dyb96a.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7dbdnda6ae.example.com.	605014	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+7dkajkd7mc.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7eslmw62pj.example.com.	604940	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7fwp56hpi8.example.com.	604881	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7gpabg8ric.example.com.	604876	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+7h0rkgbtr1.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7hpg45pyho.example.com.	604918	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+7i2qwf4war.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7mns0b2fef.example.com.	605201	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+7pa6x6fl3d.example.com.	604749	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7ql6o18hze.example.com.	605053	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7vomkyzo3z.example.com.	605033	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7xehxi3dxh.example.com.	604925	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+7yjso0go05.example.com.	604985	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+7znun1ga6o.example.com.	687855	NS	ns.dnslabattacker.net.
+; authanswer
+			687855	A	1.2.3.4
+; answer
+84chzyo4e0.example.com.	605037	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+84z9u5hu6l.example.com.	605031	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+85umj0yds1.example.com.	604713	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+86id97hf1w.example.com.	605058	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+86j81vn4ju.example.com.	605027	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+87502xi0iy.example.com.	604988	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+8bsp5pnptc.example.com.	604933	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+8c4eowl4km.example.com.	605082	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+8fay4f4akk.example.com.	687703	NS	ns.dnslabattacker.net.
+; authanswer
+			687703	A	1.2.3.4
+; answer
+; stale
+8hhlaxlczm.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+8ib7oxds06.example.com.	604946	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+8j4iu3kuqm.example.com.	604900	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+8npcsgf0sp.example.com.	604972	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+8rvxhkdzgy.example.com.	604866	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+8vn0xtf7ux.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+8vw1wmxgt9.example.com.	604873	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+8w0i4pbosa.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+8x1185tt1e.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+8xfj920k2x.example.com.	604929	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+93yd32rnsu.example.com.	604674	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+94v7i36zn1.example.com.	604989	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+98os5m7u6t.example.com.	604938	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+9b5m0jdmat.example.com.	604755	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+9c6gyxdgs8.example.com.	604965	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+9dz414xw44.example.com.	604745	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+9ewpf8h5z0.example.com.	604652	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+9i1fheshs9.example.com.	605202	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+9jx6rgs812.example.com.	604889	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+9mwoejt6xm.example.com.	604655	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+9pkt2o4uwb.example.com.	604994	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+9qv3ukxlpn.example.com.	604861	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+9spcoty5we.example.com.	605059	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+9v25408pob.example.com.	605020	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+9vc3ua6xfp.example.com.	604941	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+9wtce8xizc.example.com.	687706	NS	ns.dnslabattacker.net.
+; authanswer
+			687706	A	1.2.3.4
+; answer
+; stale
+9zqu4mm3gq.example.com.	604679	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+a1fwvhgbea.example.com.	604870	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+a1m05ujhtx.example.com.	687688	NS	ns.dnslabattacker.net.
+; authanswer
+			687688	A	1.2.3.4
+; answer
+a2v9zxym41.example.com.	605062	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+a5ezn3895r.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+a7cpt1z7wc.example.com.	604864	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+a7veo0il07.example.com.	604964	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+a8gcmoq5gb.example.com.	604944	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+aah9cg9s32.example.com.	604889	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ack377w9fw.example.com.	604989	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ajr1sbvn7m.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+alyyljzpti.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ant5k8wi9n.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ark26bipc7.example.com.	605007	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+atqs70p5ui.example.com.	604747	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+avryjq4y3j.example.com.	687881	NS	ns.dnslabattacker.net.
+; authanswer
+			687881	A	1.2.3.4
+; answer
+ay9uz30qu6.example.com.	605004	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+aywgixv166.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+b03cvmj0th.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+b0gl2vnocj.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+b0z2g90tjg.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+b34dzogrn8.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+b8na40rf4d.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+b9ek1xcdrp.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+b9vie1s2ps.example.com.	605053	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ba29ce3tap.example.com.	605079	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+bcm15tw4yy.example.com.	605006	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+bk1pypyaoi.example.com.	604752	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+bl6trcg0u7.example.com.	604715	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+bnbr2yv96g.example.com.	687691	NS	ns.dnslabattacker.net.
+; authanswer
+			687691	A	1.2.3.4
+; answer
+bp3z1itnog.example.com.	604939	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+bp6loht7hp.example.com.	604996	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+bsslwi4l5q.example.com.	605082	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+bt40hlzb3x.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+bxjr2i8m3r.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+c0ueser97k.example.com.	604958	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+c2bn8f1qig.example.com.	604895	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+c95dpp4wq9.example.com.	604910	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+cazdkiymmj.example.com.	605056	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+cbbi96oi3f.example.com.	687813	NS	ns.dnslabattacker.net.
+; authanswer
+			687813	A	1.2.3.4
+; answer
+; stale
+cc39jqlgd5.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+cfam4uzl7d.example.com.	604934	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+cff9nbteh3.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+chazlaf2fu.example.com.	604897	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+clekmax04l.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+cscjvdrj82.example.com.	604865	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+cwk1mww0c2.example.com.	604928	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+cxoit87dyy.example.com.	687792	NS	ns.dnslabattacker.net.
+; authanswer
+			687792	A	1.2.3.4
+; answer
+d4unak5l70.example.com.	604971	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+d7oc3rlkfh.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+dgpbco21x7.example.com.	604894	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+dk25h9q76y.example.com.	604962	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+dnnp4tpgxk.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+dqv1740geq.example.com.	604980	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ds7i6eaku8.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+dt2k5bdqg0.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+dtmjb88w7f.example.com.	604993	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+e19p4qykta.example.com.	687840	NS	ns.dnslabattacker.net.
+; authanswer
+			687840	A	1.2.3.4
+; answer
+; stale
+e2ienwjfsw.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+e3tc5n9jfr.example.com.	604949	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+e703xh70zc.example.com.	604966	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+e78xdr1ahu.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+e87jp2mdxa.example.com.	604738	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+e8a7c4z9it.example.com.	604910	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+e8m7ybvtrl.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+eaitlri599.example.com.	605017	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+eblslkjziz.example.com.	604913	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+eckk2qrdnk.example.com.	604716	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ed9yatpus3.example.com.	605003	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+efpsz9p23b.example.com.	604730	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+efrljjl4qk.example.com.	604955	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+eifk1x39kx.example.com.	604757	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+en88u4mon2.example.com.	604747	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+enx11cevxc.example.com.	605074	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+eodjxkigzu.example.com.	687745	NS	ns.dnslabattacker.net.
+; authanswer
+			687745	A	1.2.3.4
+; answer
+eoe9zupm3c.example.com.	604883	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+eosdfjy16o.example.com.	687858	NS	ns.dnslabattacker.net.
+; authanswer
+			687858	A	1.2.3.4
+; authauthority
+ep6n0orshl.example.com.	687734	NS	ns.dnslabattacker.net.
+; authanswer
+			687734	A	1.2.3.4
+; answer
+; stale
+epspovg3ax.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+es38jlefs0.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+esnkseo6mh.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+etf5ef7c08.example.com.	604871	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+ew3z9abbpw.example.com.	687861	NS	ns.dnslabattacker.net.
+; authanswer
+			687861	A	1.2.3.4
+; authauthority
+ezp5wjibaa.example.com.	687724	NS	ns.dnslabattacker.net.
+; authanswer
+			687724	A	1.2.3.4
+; answer
+; stale
+f0aka88dlh.example.com.	604702	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+f2c46d78cq.example.com.	605075	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+f2oarap4pe.example.com.	687679	NS	ns.dnslabattacker.net.
+; authanswer
+			687679	A	1.2.3.4
+; answer
+; stale
+f61x6zc0nt.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+f632j9bgjd.example.com.	604896	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+f7rg0y43pa.example.com.	605033	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+f8leubl1g2.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+f8xqrfmce0.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+fcgjcw083q.example.com.	604954	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+fgs4jcl6zx.example.com.	605026	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+fh62ttdhfp.example.com.	604667	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+fhu836h4e4.example.com.	687865	NS	ns.dnslabattacker.net.
+; authanswer
+			687865	A	1.2.3.4
+; answer
+fibwxx9ohg.example.com.	604898	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+flcpugn3wp.example.com.	687694	NS	ns.dnslabattacker.net.
+; authanswer
+			687694	A	1.2.3.4
+; answer
+flmqsvmgdl.example.com.	604867	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+flw5pize8d.example.com.	605013	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+fm4ghfbhhr.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+foadhr3u1y.example.com.	604876	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+fpwdfiqtk0.example.com.	605026	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+fti5myyzrx.example.com.	605019	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+fveysxq6kq.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+fzbh9i3q7g.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+fzbpuandvs.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+fzh56lrkla.example.com.	605050	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+g2cq9j6a17.example.com.	605002	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+g5qfo47z4p.example.com.	605077	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+g847d935ot.example.com.	605066	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+g8rw24vi8p.example.com.	604936	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+gaqfezsmwx.example.com.	604687	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+gb0k48y62n.example.com.	687769	NS	ns.dnslabattacker.net.
+; authanswer
+			687769	A	1.2.3.4
+; answer
+gc6wy2m7ks.example.com.	604967	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+gd2lcie5u1.example.com.	605055	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+gj4y2quwue.example.com.	604982	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+gmiomvvcao.example.com.	605073	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+gnti19cau3.example.com.	687742	NS	ns.dnslabattacker.net.
+; authanswer
+			687742	A	1.2.3.4
+; answer
+gopfutvhaf.example.com.	604924	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+goxig3psdf.example.com.	604908	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+goxjxvoy3y.example.com.	604999	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+gqdlpkqkxc.example.com.	604963	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+gxlrgo55vb.example.com.	687825	NS	ns.dnslabattacker.net.
+; authanswer
+			687825	A	1.2.3.4
+; authauthority
+h4ivhs7ur3.example.com.	687785	NS	ns.dnslabattacker.net.
+; authanswer
+			687785	A	1.2.3.4
+; answer
+; stale
+h8vduyqcac.example.com.	604712	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+hbbejo170m.example.com.	604947	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+hcph8dvszk.example.com.	604687	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+hg3zmjfkag.example.com.	604756	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+hil7msx072.example.com.	605019	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+hlrpq09csu.example.com.	687686	NS	ns.dnslabattacker.net.
+; authanswer
+			687686	A	1.2.3.4
+; answer
+; stale
+hn9bg15swq.example.com.	604722	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+hnu2ecpa9l.example.com.	604877	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+hodbp28hq4.example.com.	604706	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+hqdbjgmcz0.example.com.	605079	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+hrinnv3o6e.example.com.	604900	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+htmrmcxsdg.example.com.	604859	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+hy3kf5e56t.example.com.	604735	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+hz4efgg1ve.example.com.	604727	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+hzxa2c6tvd.example.com.	687868	NS	ns.dnslabattacker.net.
+; authanswer
+			687868	A	1.2.3.4
+; answer
+; stale
+i0pjwkbl4p.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+i5y1ulijku.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+i66omcv11u.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+i7g1ugj9om.example.com.	604920	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+i7k47yl38j.example.com.	604874	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+i845t1ehhl.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+i94apdg6na.example.com.	605200	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ia7y5f72tv.example.com.	604944	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+id909ensnk.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+igwr3bt83n.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+iibupj44b4.example.com.	604880	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+iki494lxos.example.com.	605025	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ilhvz42rt4.example.com.	604938	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ilj1mrd2mo.example.com.	604881	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+iljn6cq2kb.example.com.	605028	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+im25z69wmg.example.com.	604978	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+im4of6qxwo.example.com.	605029	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ipat4xtlea.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ipm7a1p03e.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+iqj14klw0o.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+iujgf93lcu.example.com.	604935	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+j2kdundo4k.example.com.	604757	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+j4cs6z1qt0.example.com.	604667	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+j4jbrm3b5a.example.com.	687801	NS	ns.dnslabattacker.net.
+; authanswer
+			687801	A	1.2.3.4
+; answer
+j55ly2w6c3.example.com.	605071	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+j5rffijzer.example.com.	605046	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+jc6vkhb6n0.example.com.	605032	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+jdv2eivd0i.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+je4dce82jk.example.com.	605041	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+jg6qeobnzu.example.com.	604906	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+jkilanxzlv.example.com.	604698	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+jldghm0apk.example.com.	605015	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+jlpl12gkxx.example.com.	604997	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+joj1pqyvzs.example.com.	687861	NS	ns.dnslabattacker.net.
+; authanswer
+			687861	A	1.2.3.4
+; answer
+jphm2ns4ox.example.com.	604960	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+jqhfchv3ra.example.com.	604983	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+jrkstked5h.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+jyzptakld2.example.com.	604991	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+k17j8xq77c.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+k381qpzd4f.example.com.	605009	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+k3ww7s6l2o.example.com.	604994	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+k48bnise8h.example.com.	604959	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+k55e270b8v.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+k5s4gjo55w.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+k7rgbg0blz.example.com.	604941	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+k7t7kg2ivj.example.com.	604885	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+kermu71lds.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+khg8f784ed.example.com.	605021	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+kj80yg8taf.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+kmbbat24q9.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+kp5za4tx50.example.com.	604926	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+kq0mt4oz90.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ksyx5v1clf.example.com.	604987	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+kulllhkzjs.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+kvccsy3q9q.example.com.	604976	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+kvqlhfykru.example.com.	605076	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+kz3ui24hp8.example.com.	604896	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authanswer
+kzss4v7g9y.example.com.	688003	A	1.2.3.4
+; answer
+; stale
+l0urpy8es4.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+l66yqsgg50.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+l8rko20crp.example.com.	604986	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+la0vzpu0dq.example.com.	604997	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+lcoa6wignf.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+limc2nrmzt.example.com.	687800	NS	ns.dnslabattacker.net.
+; authanswer
+			687800	A	1.2.3.4
+; answer
+lirfi0nib6.example.com.	604949	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+lnbomla0od.example.com.	604725	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+lqdnuk4uox.example.com.	604749	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+lsjygfckmb.example.com.	687721	NS	ns.dnslabattacker.net.
+; authanswer
+			687721	A	1.2.3.4
+; answer
+; stale
+ltos7jw1al.example.com.	604658	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+luifgzr05b.example.com.	605047	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+lz6oiee527.example.com.	604659	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+m7esvs130n.example.com.	605081	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+m9s0tjc1ud.example.com.	604744	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+mbuk0zj36p.example.com.	605046	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+mbupbjyaa8.example.com.	687840	NS	ns.dnslabattacker.net.
+; authanswer
+			687840	A	1.2.3.4
+; answer
+; stale
+mdgpyt2bdd.example.com.	604733	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+meoubjex4w.example.com.	604704	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+mez84h66qb.example.com.	604931	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+mfd1iydatd.example.com.	604956	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+mgbgz1da9g.example.com.	605062	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+mk326bt4tm.example.com.	687729	NS	ns.dnslabattacker.net.
+; authanswer
+			687729	A	1.2.3.4
+; answer
+mk9i4n2jrb.example.com.	604887	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+mlmx9nvfk0.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+mq3vz8dagn.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+mt85edpodh.example.com.	604976	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+mu374np4t4.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+mv8flnhefz.example.com.	605008	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+mxlcc2ouqe.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+n6fsv1ctud.example.com.	604907	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+n802xkdtxz.example.com.	604874	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+n864gbjyn0.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+n9fz5besos.example.com.	604973	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+nbup4dx2e1.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+nip7f0bs7y.example.com.	687810	NS	ns.dnslabattacker.net.
+; authanswer
+			687810	A	1.2.3.4
+; answer
+nkip8yckcz.example.com.	604884	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+nr9zqbuhmq.example.com.	687693	NS	ns.dnslabattacker.net.
+; authanswer
+			687693	A	1.2.3.4
+; authauthority
+ns5uszd55p.example.com.	687772	NS	ns.dnslabattacker.net.
+; authanswer
+			687772	A	1.2.3.4
+; answer
+nuwdn0hfwf.example.com.	604923	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+nv3pmj0m1x.example.com.	604862	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+o3rpt38xp2.example.com.	604922	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+o5u5d7xeip.example.com.	605063	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+o6obmp4a22.example.com.	605071	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+oce19i2vn5.example.com.	604686	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+od7yyq3tg4.example.com.	604914	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+ohuvjg5hgb.example.com.	687811	NS	ns.dnslabattacker.net.
+; authanswer
+			687811	A	1.2.3.4
+; answer
+; stale
+oj2fqf0el3.example.com.	604744	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+okj5v5mls8.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+onc4s8dmvs.example.com.	604899	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+opbn4u0c10.example.com.	687854	NS	ns.dnslabattacker.net.
+; authanswer
+			687854	A	1.2.3.4
+; answer
+opis54cqzy.example.com.	604882	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+orloest3o3.example.com.	604919	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ouej097inw.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ouij3iqhsn.example.com.	604981	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ovcg2ohjhs.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+p0ecm313jd.example.com.	605072	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+p3x3cpxdjj.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+p4o2zdpcso.example.com.	605067	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+p6wqj1c96q.example.com.	604933	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+p7frbsgvhn.example.com.	604863	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+p9i65ivw45.example.com.	605012	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+pae229pzlj.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+pbwygab6s5.example.com.	605000	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+pc9toh84n0.example.com.	605068	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+pd8lckwlbf.example.com.	605060	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+peh5dsshqq.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+pgort62ovp.example.com.	604935	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ph3h34coa1.example.com.	604966	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+phg7fob8ht.example.com.	604911	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+ppy7rcslav.example.com.	687719	NS	ns.dnslabattacker.net.
+; authanswer
+			687719	A	1.2.3.4
+; authauthority
+pqs6gh0w2l.example.com.	687759	NS	ns.dnslabattacker.net.
+; authanswer
+			687759	A	1.2.3.4
+; answer
+prcy30f5v1.example.com.	605036	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+prj7t9c6k2.example.com.	604701	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+prwr91dxg3.example.com.	605023	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+pt9uhz33gn.example.com.	604908	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+pvdxojcf0i.example.com.	605009	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+q1kyn49yrw.example.com.	604739	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+q2evphqew4.example.com.	604898	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+q2vwl318al.example.com.	605031	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+q71owu2kv0.example.com.	605201	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+q7odhg4zc7.example.com.	604723	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+q8cm4kl7xw.example.com.	604727	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+q9pzttw0my.example.com.	605083	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+qafgz53rsp.example.com.	604939	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+qe3x0zmcmj.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+qgur84y89l.example.com.	605042	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+qjhm927fho.example.com.	605010	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+qjki835f7f.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+qnhd4uscqi.example.com.	604870	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+qo3v6xrmnc.example.com.	605043	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+qoam72ux0p.example.com.	605034	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+qomjqiot13.example.com.	604711	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+qs2b4h9t8o.example.com.	604682	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+qu3j05ozt0.example.com.	604904	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+qz54lz4461.example.com.	604868	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+r1aobnzd4a.example.com.	604663	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+r3ibquribe.example.com.	604740	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+r5yw8hww14.example.com.	604873	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+r6qetq3syc.example.com.	604971	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+r7v7uo0ef7.example.com.	687838	NS	ns.dnslabattacker.net.
+; authanswer
+			687838	A	1.2.3.4
+; answer
+; stale
+r8jhrecd4a.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+rasjdh4ly9.example.com.	604975	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+rdykez55ru.example.com.	605044	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+rfhl1wigh8.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+rgzkpyghll.example.com.	605018	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+rl97fyq43j.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+rlmpnc0ssu.example.com.	604890	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+rlyscxan3t.example.com.	604925	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+rn8d6e7ger.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+rnai0srfli.example.com.	604915	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ro0ifv6u9e.example.com.	605073	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ros7tn1ntm.example.com.	604956	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+rox4l38n7s.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+rq1r3pbgi5.example.com.	604872	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ruh6g9ycin.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+rwihdqtuwq.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+rx8bu2srof.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ryo6dgcrxt.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ryzbj2woao.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+s1spf574vn.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+s246qfylis.example.com.	605069	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+s36vc0qtpb.example.com.	604977	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+s3zboo2555.example.com.	604879	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+s4n4imdwe3.example.com.	604926	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+s7xkpgmzrg.example.com.	604916	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+s9m8t23351.example.com.	605069	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+sigm86rvkb.example.com.	605080	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+skj40bfq5o.example.com.	604970	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+sq1lok0h5p.example.com.	605030	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+sv3nyxt4uk.example.com.	604890	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+sxezlz2e87.example.com.	604905	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+szfrrw0zey.example.com.	605029	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+t1vh4khb1f.example.com.	604864	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+t5sanhh7g9.example.com.	605045	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+t6vcnz3ib2.example.com.	605030	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+t9p6g1aind.example.com.	604932	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+tcwxtlqo4y.example.com.	604859	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+tdvpv7jaa7.example.com.	604746	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+te3yui3tzd.example.com.	604979	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+tet47xtqoe.example.com.	687876	NS	ns.dnslabattacker.net.
+; authanswer
+			687876	A	1.2.3.4
+; answer
+; stale
+tg25rexqa2.example.com.	604726	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+tgplrq7p0y.example.com.	604871	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+th3ac09gtf.example.com.	604996	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+thpaygvevp.example.com.	604930	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+thpoubk90n.example.com.	687835	NS	ns.dnslabattacker.net.
+; authanswer
+			687835	A	1.2.3.4
+; authauthority
+ti1875mek0.example.com.	687750	NS	ns.dnslabattacker.net.
+; authanswer
+			687750	A	1.2.3.4
+; answer
+tljs0p1nbt.example.com.	604970	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+tsigw4xs95.example.com.	605050	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+tt9m64ghye.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+tvb32o4hp1.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+txaesi0ddo.example.com.	605052	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+tzmqpzmaol.example.com.	604901	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+u0rinwni6v.example.com.	605044	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+u9tjty57kl.example.com.	605057	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+uhmqqzw7qa.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+uiyfvvhnof.example.com.	604995	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ujpd0qiuej.example.com.	604915	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+umz3o8x1us.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+un9124lp7e.example.com.	605021	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+uwfq4a1w69.example.com.	605020	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+uxsxs2299u.example.com.	604943	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+v4tbcn6b6o.example.com.	604866	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+v5w9wg3g4i.example.com.	604931	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+v8b8e4ork0.example.com.	604698	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+vc4w9vmago.example.com.	604904	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+vhlvaqywhm.example.com.	605057	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+vkbtzqeiv8.example.com.	605078	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+vo7k5vt0nu.example.com.	604746	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+vq92v2dgg1.example.com.	605051	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+vz159n7upc.example.com.	604756	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+w0qoxqulj8.example.com.	604685	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+w26vhxtnke.example.com.	604671	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+w2i0ntlm37.example.com.	604745	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+w3hyxwo1ga.example.com.	604909	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+w8pz1kuvnm.example.com.	604984	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+wdym0wie4k.example.com.	604724	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+wflvcdynza.example.com.	604980	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+wh22a90h6b.example.com.	604899	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+win5k7txj1.example.com.	604654	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+wlxhhppyk7.example.com.	687761	NS	ns.dnslabattacker.net.
+; authanswer
+			687761	A	1.2.3.4
+; answer
+wntsuw3rni.example.com.	604909	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+woslmji53z.example.com.	604903	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+wq32pf6ayy.example.com.	604862	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+wroximocec.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+wwkva7eo18.example.com.	0	\-ANY	;-$NXDOMAIN
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+wzb8q71s90.example.com.	605064	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+x2ab8lhmp2.example.com.	0	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+x2bjykrac5.example.com.	0	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+x2zdk1dqk7.example.com.	0	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+x5704wo9st.example.com.	604953	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+x6iijsk8k7.example.com.	605001	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+x6o4ptt68e.example.com.	0	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+x7rilej67m.example.com.	0	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+x8oxfkenv5.example.com.	605022	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+x9gc9wx2m4.example.com.	604880	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xcuj68fj8z.example.com.	605065	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+xeh5b2bvlt.example.com.	0	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+xiw714znhx.example.com.	604753	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+xltozs0qja.example.com.	687852	NS	ns.dnslabattacker.net.
+; authanswer
+			687852	A	1.2.3.4
+; answer
+xmwadohdh6.example.com.	605039	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xrijh7awoy.example.com.	604974	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xs8r8d1s2o.example.com.	605045	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+y4yd174pnx.example.com.	604950	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+y9obt5t2sn.example.com.	604737	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+yb4gt2xcs5.example.com.	604991	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+yb5fgl8tlc.example.com.	0	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ycdzbzrmtz.example.com.	604717	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+yean92cbkj.example.com.	604992	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+yheudekuie.example.com.	604860	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+yn5qu1g87h.example.com.	604895	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+yu2uo9d8h8.example.com.	605049	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+ywzlcu5kzt.example.com.	604969	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+yxejuc5t87.example.com.	605070	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+yxt82j395d.example.com.	604945	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+yy2d8244i8.example.com.	0	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+z40ros7j7q.example.com.	604741	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+z41tzc0g1b.example.com.	604981	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+z6pqw557f5.example.com.	605074	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+za4nw8cmhk.example.com.	604726	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+zai2e3ve8r.example.com.	604975	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+zc540nxkil.example.com.	604685	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; authauthority
+zctpx44b4i.example.com.	687774	NS	ns.dnslabattacker.net.
+; authanswer
+			687774	A	1.2.3.4
+; answer
+; stale
+zcz1p177tx.example.com.	604681	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+ze3k3udrv3.example.com.	604709	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+zf426bdjkz.example.com.	605006	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+zhwyz4rtip.example.com.	605016	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+zk94kwn70h.example.com.	605077	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+zlvgck7sov.example.com.	604721	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+zpqnthzpqv.example.com.	604952	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+zxex8sadje.example.com.	604858	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+zxmydczkq0.example.com.	605059	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+; stale
+zyc90r0hnl.example.com.	604697	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; answer
+zyygn8b2v4.example.com.	604878	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA ns.icann.org. noc.dns.icann.org. 2021022323 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+; glue
+a0.org.afilias-nst.info. 773494	A	199.19.56.1
+; glue
+			773494	AAAA	2001:500:e::1
+; glue
+a2.org.afilias-nst.info. 773494	A	199.249.112.1
+; glue
+			773494	AAAA	2001:500:40::1
+; glue
+c0.org.afilias-nst.info. 773494	A	199.19.53.1
+; glue
+			773494	AAAA	2001:500:b::1
+; glue
+net.			773494	NS	a.gtld-servers.net.
+			773494	NS	b.gtld-servers.net.
+			773494	NS	c.gtld-servers.net.
+			773494	NS	d.gtld-servers.net.
+			773494	NS	e.gtld-servers.net.
+			773494	NS	f.gtld-servers.net.
+			773494	NS	g.gtld-servers.net.
+			773494	NS	h.gtld-servers.net.
+			773494	NS	i.gtld-servers.net.
+			773494	NS	j.gtld-servers.net.
+			773494	NS	k.gtld-servers.net.
+			773494	NS	l.gtld-servers.net.
+			773494	NS	m.gtld-servers.net.
+; additional
+			687094	DS	35886 8 2 (
+					7862B27F5F516EBE19680444D4CE5E762981
+					931842C465F00236401D8BD973EE )
+; additional
+			687094	RRSIG	DS 8 1 86400 (
+					20210424050000 20210411040000 14631 .
+					JylUTdEUNZeVzpocKlQdUV7trdq2zCljBY7D
+					SnEq1vmP0jSzjf37uidFGq2E1ZtGdisX5dVg
+					xUnMEDgBObvnXfIzerA3iPLV891DbjzNa2Ul
+					AkXM4F1Kwd+WWjT//CMFwDIAcfAeE+ztFmAq
+					ItJBCZ4Rrst2MTmwHuOKR7lxBUyysGt3Qi5x
+					ul6wTK3pjOICFE431elF11bash0a3k+/MEqj
+					s2c9/Xvz0V5SUVG042KFP+jlBwrwHgYyzFEx
+					61KdXoT7dFn+3d0csDeetc2ZDZee647te9r0
+					HMeNRmE+Qm6OVEaMEXxVRlyyjBEWIa5W7MhH
+					KhruX/DD95Ej/HqE0w== )
+; answer
+ns.dnslabattacker.net.	605435	\-ANY	;-$NXDOMAIN
+; net. SOA a.gtld-servers.net. nstld.verisign-grs.com. 1618154134 1800 900 604800 86400
+; net. RRSIG SOA ...
+; A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net. RRSIG NSEC3 ...
+; A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net. NSEC3 1 1 0 - A1RUUFFJKCT2Q54P78F8EJGJ8JBK7I8B NS SOA RRSIG DNSKEY NSEC3PARAM
+; DMCFV1GUAK07QCH89D7LUIAGNUGGKDTQ.net. RRSIG NSEC3 ...
+; DMCFV1GUAK07QCH89D7LUIAGNUGGKDTQ.net. NSEC3 1 1 0 - DMCQBOCO48RGL4UNLPEQL7UH87MU8J70 NS DS RRSIG
+; EEQ3CIFFULOPN4J3E5MKEGKVDJKIGVBP.net. RRSIG NSEC3 ...
+; EEQ3CIFFULOPN4J3E5MKEGKVDJKIGVBP.net. NSEC3 1 1 0 - EEQK07IRBKP8QH4ERS3RB7EII1OA1L8N NS DS RRSIG
+; glue
+a.gtld-servers.net.	773493	A	192.5.6.30
+; glue
+			773493	AAAA	2001:503:a83e::2:30
+; glue
+b.gtld-servers.net.	773493	A	192.33.14.30
+; glue
+			773493	AAAA	2001:503:231d::2:30
+; glue
+c.gtld-servers.net.	773493	A	192.26.92.30
+; glue
+			773493	AAAA	2001:503:83eb::30
+; glue
+d.gtld-servers.net.	773493	A	192.31.80.30
+; glue
+			773493	AAAA	2001:500:856e::30
+; glue
+e.gtld-servers.net.	773493	A	192.12.94.30
+; glue
+			773493	AAAA	2001:502:1ca1::30
+; glue
+f.gtld-servers.net.	773493	A	192.35.51.30
+; glue
+			773493	AAAA	2001:503:d414::30
+; glue
+g.gtld-servers.net.	773493	A	192.42.93.30
+; glue
+			773493	AAAA	2001:503:eea3::30
+; glue
+h.gtld-servers.net.	773493	A	192.54.112.30
+; glue
+			773493	AAAA	2001:502:8cc::30
+; glue
+i.gtld-servers.net.	773493	A	192.43.172.30
+; glue
+			773493	AAAA	2001:503:39c1::30
+; glue
+j.gtld-servers.net.	773493	A	192.48.79.30
+; glue
+			773493	AAAA	2001:502:7094::30
+; glue
+k.gtld-servers.net.	773493	A	192.52.178.30
+; glue
+			773493	AAAA	2001:503:d2d::30
+; glue
+l.gtld-servers.net.	773493	A	192.41.162.30
+; glue
+			773493	AAAA	2001:500:d937::30
+; glue
+m.gtld-servers.net.	773493	A	192.55.83.30
+; glue
+			773493	AAAA	2001:501:b1f9::30
+; glue
+iana-servers.net.	773494	NS	a.iana-servers.net.
+			773494	NS	b.iana-servers.net.
+			773494	NS	c.iana-servers.net.
+			773494	NS	ns.icann.org.
+; additional
+			687094	DS	7474 8 2 (
+					893CC96419BA2F255A8C9BE913753AD2CA72
+					65C67B9D1BAF3CD18AEC4CBFEA9C )
+; additional
+			687094	RRSIG	DS 8 2 86400 (
+					20210417052432 20210410041432 30944 net.
+					U+Ooo0hCkGlm6Y8iLZeTGh+JtsbRy8/zboK7
+					gTOKpHtaXgFvf+pnFQblN1S+RQwWDYJtHTcj
+					5ls6QIFcwxxLq6LYCejb70QD8xCoGcWYMc5L
+					dDdk3wxP4e6uzo0Haxgk1WnsfQLBeTfDhKDI
+					jw9SIe5ULAIG/+LCFooLff0whMAlQ8gZ0OTz
+					sOUSCUdIYVP5nQ5txJqZgjjidUCgOfJ/Qg== )
+; authanswer
+; stale
+a.iana-servers.net.	602494	A	199.43.135.53
+; authanswer
+; stale
+			602494	RRSIG	A 8 3 1800 (
+					20210430031826 20210409121005 6744 iana-servers.net.
+					CT2Uqc+B2b/1lP89eUDbCA17rJlOkACQ4VBI
+					A51VD9eUctfGqFXU4zo2ghf7raNBuY8qr/UH
+					rYaXOCYLqMOfSFLFgoanS0mThXwr/aPh3ypV
+					SD7HikufMoHz9EZKWHPf0RX03gDt3GvgZtb0
+					62MyUlE2IMfEDuI63qADye4aX6U= )
+; glue
+			773494	AAAA	2001:500:8f::53
+; authanswer
+; stale
+b.iana-servers.net.	602494	A	199.43.133.53
+; authanswer
+; stale
+			602494	RRSIG	A 8 3 1800 (
+					20210502103722 20210411001005 6744 iana-servers.net.
+					gPjAyvbl0Hm60EOhu3cwA0jULXbvCYJwfue/
+					hSk4pNCQv+3kAeQbsJORI1sKsXFXfZUFG9m1
+					k9mi2tCtRl13+ss2Q2IhJUGZr0T8dL/MCXe+
+					wkpiAh1ejU/cHXHBRDb3D4MY/w7GqUpPu6+A
+					lNa0ydQ/vSiWaOveRH9VVHE1KCY= )
+; glue
+			773494	AAAA	2001:500:8d::53
+; glue
+c.iana-servers.net.	773494	A	199.43.134.53
+; glue
+			773494	AAAA	2001:500:8e::53
+; glue
+icann-servers.net.	773494	NS	a.icann-servers.net.
+			773494	NS	b.icann-servers.net.
+			773494	NS	c.icann-servers.net.
+			773494	NS	ns.icann.org.
+; additional
+			687094	DS	55357 8 2 (
+					B8409C915D4A76AE8A443C2BD5FEA38E8572
+					93E55ACE2540D83472BFDF00E512 )
+; additional
+			687094	RRSIG	DS 8 2 86400 (
+					20210415052458 20210408041458 30944 net.
+					dforvR/K1V4o++7PS8QQ7xJut7KDBQmcPNkC
+					dVeicfzkRxWcuMmVh6oOt6afy7OD9FxfTCOm
+					aSc+2wiiyTCEiEYJ4ye/BgCqbvwbMH9mLH9W
+					zKtzxrzwzgcIZdnIu/y86Uk8i9pgsFIm6Oz8
+					bWgvcgrG/brCkl6FQKANQfFD+vRNW5pJEVTx
+					hKoslqIEKuzMhZVGlFiazzPg9mNd2SVBRQ== )
+; authanswer
+a.icann-servers.net.	629494	A	199.43.135.53
+; authanswer
+			629494	RRSIG	A 8 3 28800 (
+					20210430213701 20210409164513 10773 icann-servers.net.
+					XyvBIbJqhXQUcGUI52ndFYvszj1QLEVfoc4M
+					TmyGniIf1Os5qvF6aGeYR2QI/Kp+Ntxf8Q2V
+					/8CCEUTteLgURqp7VPz+ZCmrOPDsEulUgMYK
+					FG2HpW0lJ+yWNUVSB4oyr+NmS4Ys01qtihr0
+					FJRH0hbKc0kzVPES2Ww6MQa7jJE= )
+; glue
+			773494	AAAA	2001:500:8f::53
+; authanswer
+b.icann-servers.net.	629494	A	199.43.133.53
+; authanswer
+			629494	RRSIG	A 8 3 28800 (
+					20210501115840 20210410144513 10773 icann-servers.net.
+					KJm91XJ9k9jCzX7sAAZo9cgAF0H/8gChhVH4
+					Dh9UY5xStscdiA2aHDEN4wwiEhPTyv/D6xBs
+					lYVPtXKLqr8rXlVpZysVulOGlkbfrx/CNBzw
+					QyQN7wF+EE5+GY/QtIcLq7E3+XCUOPDAilZz
+					GLk6qUaKOphUhf2mcaqdJUOGdKk= )
+; glue
+			773494	AAAA	2001:500:8d::53
+; authanswer
+c.icann-servers.net.	629494	A	199.43.134.53
+; authanswer
+			629494	RRSIG	A 8 3 28800 (
+					20210501002157 20210410064513 10773 icann-servers.net.
+					hDTH+384eSBspqO1a3mR6uHsOAe0g+eVn6Am
+					vuWvMCTNK7kvZMoRQU0FXXDjwC/vgPTZRO/n
+					Ek/Al44i5ml+OKuWUyl0OZQoGmxG9NzF/T55
+					/lCdb/PLdZew/aLa2Fun2MekjBnoq7xN6tag
+					tm8WALJm9iVlL5YV+Lh40Dkk+tE= )
+; glue
+			773494	AAAA	2001:500:8e::53
+; glue
+a.root-servers.net.	1119065	A	198.41.0.4
+; glue
+			1119065	AAAA	2001:503:ba3e::2:30
+; glue
+b.root-servers.net.	1119065	A	199.9.14.201
+; glue
+			1119065	AAAA	2001:500:200::b
+; glue
+c.root-servers.net.	1119065	A	192.33.4.12
+; glue
+			1119065	AAAA	2001:500:2::c
+; glue
+d.root-servers.net.	1119065	A	199.7.91.13
+; glue
+			1119065	AAAA	2001:500:2d::d
+; glue
+e.root-servers.net.	1119065	A	192.203.230.10
+; glue
+			1119065	AAAA	2001:500:a8::e
+; glue
+f.root-servers.net.	1119065	A	192.5.5.241
+; glue
+			1119065	AAAA	2001:500:2f::f
+; glue
+g.root-servers.net.	1119065	A	192.112.36.4
+; glue
+			1119065	AAAA	2001:500:12::d0d
+; glue
+h.root-servers.net.	1119065	A	198.97.190.53
+; glue
+			1119065	AAAA	2001:500:1::53
+; glue
+i.root-servers.net.	1119065	A	192.36.148.17
+; glue
+			1119065	AAAA	2001:7fe::53
+; glue
+j.root-servers.net.	1119065	A	192.58.128.30
+; glue
+			1119065	AAAA	2001:503:c27::2:30
+; glue
+k.root-servers.net.	1119065	A	193.0.14.129
+; glue
+			1119065	AAAA	2001:7fd::1
+; glue
+l.root-servers.net.	1119065	A	199.7.83.42
+; glue
+			1119065	AAAA	2001:500:9f::42
+; glue
+m.root-servers.net.	1119065	A	202.12.27.33
+; glue
+			1119065	AAAA	2001:dc3::35
+; glue
+org.			773494	NS	a0.org.afilias-nst.info.
+			773494	NS	a2.org.afilias-nst.info.
+			773494	NS	b0.org.afilias-nst.org.
+			773494	NS	b2.org.afilias-nst.org.
+			773494	NS	c0.org.afilias-nst.info.
+			773494	NS	d0.org.afilias-nst.org.
+; additional
+			687094	DS	26974 8 2 (
+					4FEDE294C53F438A158C41D39489CD78A86B
+					EB0D8A0AEAFF14745C0D16E1DE32 )
+; additional
+			687094	RRSIG	DS 8 1 86400 (
+					20210424050000 20210411040000 14631 .
+					A04yp9hVR6OBD8qVM+he3zP9R6g8W5o0Hsdm
+					mqkHbPufrs4dgU/0SKC7Ruex8PE2SVKJhEKs
+					12+BTtDwatzvkgrWzlVu0kHl+bUCMPzGCQfN
+					fxK9/Ssa4KBFp2BmOe4v3FLlUgCLAI6GHxD1
+					PWzshKydBvoAUf09+rwAA8xK4eCL2EYaQrUT
+					URmcFr16j1p/0WYLijRbpLFBYGPSrd30tt8t
+					u88Egk3IJ31s6Ya/HtCvsTfiqMeyXb5T6Bmo
+					t6iHldshF6njX9GU7L9XCFQYDWtF8dQBD+yL
+					b7IMAv03VBCrFTCHuEogcQflLpFLJqggL5qC
+					LSPay5WsEXN7APIxJA== )
+; glue
+b0.org.afilias-nst.org.	773494	A	199.19.54.1
+; glue
+			773494	AAAA	2001:500:c::1
+; glue
+b2.org.afilias-nst.org.	773494	A	199.249.120.1
+; glue
+			773494	AAAA	2001:500:48::1
+; glue
+d0.org.afilias-nst.org.	773494	A	199.19.57.1
+; glue
+			773494	AAAA	2001:500:f::1
+; authauthority
+icann.org.		687094	NS	a.icann-servers.net.
+			687094	NS	b.icann-servers.net.
+			687094	NS	c.icann-servers.net.
+			687094	NS	ns.icann.org.
+; authauthority
+			687094	RRSIG	NS 7 2 86400 (
+					20210430192305 20210409233616 30720 icann.org.
+					SkL29eu7+09XjNzNerq5MGw/ddDxA+Fwxlhe
+					wV5JBTISr8UcLYW/dB50YPwlDAe3weNEI2I/
+					nfnq5rLi5kgJNytxidkW6bbZ1YgUJo1xRkcM
+					KL1K1Q4Kt5I0+JcbsQ9WFMhYgY0m8rrMjIIl
+					8+2yx9aaodq8InxrqED6sP9SPog= )
+; additional
+			687094	DS	17248 7 2 (
+					885CF8A6CF35FD5C619E1D48B59AFB23063B
+					BA9FEC52FF25F99094CBA10910A2 )
+			687094	DS	18060 7 2 (
+					6BE021818B9F10ED981A03ACBF74F01E31FB
+					15C58680AD0C4BAA464BF37A7523 )
+			687094	DS	23584 7 2 (
+					AF57A492640102809209AA005B93C32B7ACC
+					83734BC785CFA50B51688299CD61 )
+; additional
+			687094	RRSIG	DS 8 2 86400 (
+					20210430153257 20210409143257 27558 org.
+					tHX5x92rFxTYGx+AbjceqBw/WZj4Wss0ZxHP
+					hY80saYXXvJ4VaNkrWbzxUudf0W/FSAgYRbT
+					9FV9VnEbQ+Eo06WC2A+a74+yeO39zh/r3miS
+					k7cs53CykJK/dfhFHD/G5FRu8P7rxpt2DGaf
+					wxF/F9ai4eXjEutM2Yq2xeCB5QY= )
+; authanswer
+; stale
+ns.icann.org.		604294	A	199.4.138.53
+; authanswer
+; stale
+			604294	RRSIG	A 7 3 3600 (
+					20210430213522 20210409213616 30720 icann.org.
+					chzjCgCB4/rKiwwlxjpGtu04NPglGpiKpdaW
+					bCsPjayjVLP8gnOoeB0IJU8fnfW0hYCjtz1H
+					arp3mnBKI9RaLq6vzI5dFlTprYhV8UreCcLQ
+					60jdWouAOE7SNVJZGu92o4diVBVG6sf/waa/
+					Y3nBobI5doXIDcjy7E8L7JcuG2w= )
+; glue
+			687094	AAAA	2001:500:89::53
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+; ns.dnslabattacker.net [v4 TTL 635] [v4 nxdomain] [v6 unexpected]
+;
+; Unassociated entries
+;
+;	192.35.51.30 [srtt 3] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.26.92.30 [srtt 16] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.52.178.30 [srtt 18] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.31.80.30 [srtt 23] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.12.94.30 [srtt 14] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.54.112.30 [srtt 31] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.5.6.30 [srtt 24] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.41.162.30 [srtt 14] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.33.14.30 [srtt 39702] [flags 00004000] [edns 1/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1535]
+;	192.48.79.30 [srtt 3] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.55.83.30 [srtt 14] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.42.93.30 [srtt 4] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;	192.43.172.30 [srtt 24] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1535]
+;
+; Bad cache
+;
+;
+; SERVFAIL cache
+;
+; fuvj80cfti.example.com/A [ttl 834]
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+; using a 604800 second stale ttl
+$DATE 20210404152027
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+;
+; SERVFAIL cache
+;
+; Dump complete

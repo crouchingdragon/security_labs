@@ -1,0 +1,11 @@
+Part 1 Explanation:
+To get the IPV4 address of utoronto.ca I used the command <dig utoronto.ca>. To get the names of the name servers of utoronto.ca, I used the command <dig utoronto.ca NS> for Name Server. To get the name of the mail servers, I used the command <dig utoronto.ca MX>. Lastly, to direct dig to my local BIND server, I used the command <dig @127.0.0.1 -p 1053 utoronto.ca ANY> where 127.0.01 is my BIND server address and -p 1053 specifies the port number BIND is listening on.
+
+Part 2 Explanation:
+To send and receive data through the proxy, I first open and bind to a proxy socket on the port specified at runtime. I then listen for a UDP packet using recvfrom. From there, I send the data to the port that the DNS BIND is currently listening on. I then recieve whatever packet BIND sends back through the open proxy port, before sending it back to the port the dig command is listening on, which I received from the initial recvfrom.
+
+Part 3 Explanation:
+I first check if SPOOF is true. If so, I check if the qname is example.com. If one or both of those conditions are false, I don't manipulate the packet and the code works like part 2. Otherwise, I use scapy to manipulate the answer, authority, and additional sections to change IP (an.rdata="1.2.3.4") and name servers (ns.rdata="ns.dnslabattacker.net.").
+
+Part 4 Explanation:
+I first open a socket on the listening port in named.conf. I then use getRandomSubDomain() to create a new subdomain on each loop iteration which I use to instantiate a new dns request packet, which I send to the listening port on the BIND server. Next, I flood the port BIND uses to listen to dns queries with spoofed DNS packets. I send 2000 in quick succession, each has a new transaction ID given by getRandomTXID(), and has the rdata field of the name servers spoofed to "ns.dnslabattacker.net.". I then recieve the response packet from BIND, and if the rdata field of the name servers has succesfully been changed, I set a hacked flag to true, which stops the while loop sequence.
