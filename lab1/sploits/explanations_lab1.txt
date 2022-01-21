@@ -1,0 +1,17 @@
+Sploit 1:
+Strcpy will copy the string passed in arg into the memory where out is held. There are no length checks to make sure that the buffer is not overfilled. Using gdb, I found that the return address was stored in 0x2021fe88 on the stack, so I filled my attack buffer first with NOPs, then put the shellcode at the start of my attack buffer (because I know exactly where I should be overwriting, thanks to gdb). I then put the address of my shellcode where the return address will be stored on the stack. 
+
+Sploit 2:
+In target 2, foo uses a for loop iterating through i to copy arg into the buffer. The for loop will stop once i reaches the value in len. Len is used in an attempt to make sure the function isn't overwriting past what it can handle. Because len and i are also stored on the stack, I can use my attack buffer to overwrite these so that the loop continues for however long I want. I overwrite the lower byte of i to skip forward, so that I don't have to use the env variable. Then I overwrite all 4 bytes of len, using the env variable for every \x00. After this, the loop is able to continue overwriting the stack memory until I reach the location where the return address is stored.
+
+Sploit 3:
+Able to overwrite the return address of bar() without having to change any other variables stored on the stack. Similar to sploit 1 in execution.
+
+Sploit 4:
+Len comes before i on the stack, so I can overwrite len with a huge number, and do the same for i as long as it loops enough for me to reach the return address of foo() and overwrite it. That way, I can get out of using env.
+
+Sploit 5:
+(Not completed)
+I put some chars at the start of my attack string, to see how many bytes I need to look for in the format string to reach formatString[0]. Was getting some seg faults when I tried to write with %hhn, so that's kind of where I got stuck.
+
+Sploit 6:
